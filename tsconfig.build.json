@@ -1,0 +1,23 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "packages/config"
+    },
+    {
+      "path": "packages/firestore"
+    },
+    {
+      "path": "packages/secret-manager"
+    },
+    {
+      "path": "packages/cloud-tasks"
+    },
+    {
+      "path": "packages/auth"
+    },
+    {
+      "path": "packages/functions"
+    }
+  ]
+}

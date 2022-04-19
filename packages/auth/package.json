@@ -1,0 +1,21 @@
+{
+  "name": "@gcp-wrappers/auth",
+  "version": "1.0.0",
+  "description": "Awesome CLI",
+  "main": "lib/main.js",
+  "scripts": {
+    "compile": "tsc",
+    "test": "node lib/main.spec.js"
+  },
+  "keywords": [],
+  "author": "komaromiGyorgy",
+  "license": "MIT",
+  "dependencies": {
+    "@gcp-wrappers/config": "^1.0.0",
+    "@types/node": "^16.0.0",
+    "minimist": "^1.2.5"
+  },
+  "devDependencies": {
+    "typescript": "4.6.3"
+  }
+}
