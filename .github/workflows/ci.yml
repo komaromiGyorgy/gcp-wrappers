@@ -1,4 +1,4 @@
-name: ci
+name: gcpw-continuous-integration-pipeline
 
 on:
   push:
