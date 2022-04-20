@@ -1,7 +1,8 @@
 import { awesomeFn } from '@gcp-wrappers/config';
-
+const alma = '123123'
 export async function main() {
   // dependencies across child packages
-  const out = await awesomeFn();
-  return out;
+  console.log('alma :>> ', alma);
+  console.log('alma :>> ', alma);
+  return awesomeFn();
 }

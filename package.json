@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "rimraf \"packages/**/lib\" \"packages/**/*.tsbuildinfo\"",
     "compile": "tsc -b tsconfig.build.json",
+    "start": "tsc -w tsconfig.build.json",
     "prettier": "prettier \"*.{js,json,yml,md}\" \"packages/**/*\"",
     "format": "npm run prettier -- --write",
     "format:check": "npm run prettier -- --check",
