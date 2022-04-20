@@ -1,6 +1,6 @@
 {
   "name": "gcp-wrappers",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Wrappers for GCP functionalities",
   "scripts": {
     "clean": "rimraf \"packages/**/lib\" \"packages/**/*.tsbuildinfo\"",
